@@ -40,6 +40,16 @@ AHP It accepts a maximum slope and "Out Of Bounds" (OOB) tags to create a path o
 ####Is it the shortest path?
 Yes and No. It CAN be. For performance reasons, AHP is not designed to always return the shortest path - rather, a path that fits the requirements. However, different Heuristics will be available so the user can balance performance->accuracy as needed.
 
+##How to use
+  1. Download the repository
+  2. Copy the code files into your Unity Project
+  3. Create an "agent" by adding a sphere to your project
+  4. Disable to mesh renderer and mesh collider components
+  5. Attach the AStarAdHocPathfinder.cs and AStarAdHocSimpleMovement.cs scripts to the agent
+  6. Use AStarAdHocSimpleMovement's public method "SetNewTargetPosition(Vector3)" to move to the location
+
+Note that the agent must have a similar Y to the terrain surface. When moving, the agent will follow the terrain at 0-y.
+
 ####Projects powered by AHP:
  * Fangs and Claws
 
