@@ -5,6 +5,11 @@
 
 AdHoc Pathfinder (AHP) is a free and open-source pathfinder solution for use in Unity Applications. It specializes in high performance and low memory overhead for vast->infinite terrain surfaces. AHP calculates a path based on initial conditions without the need for a prebaked or precalculated mesh. Instead, AHP uses an artifical grid and raycasting to determine a position's walkable state.
 
+#####Projects powered by AHP:
+ * Fangs and Claws
+
+If your project uses AHP, please message me (Kivak) on the Unity forums and I will add it to the list.
+
 ####Features:
 
   * Pathfinding without the memory overhead of a baked mesh
@@ -38,3 +43,8 @@ AHP It accepts a maximum slope and "Out Of Bounds" (OOB) tags to create a path o
 
 ####Is it the shortest path?
 Yes and No. It CAN be. For performance reasons, AHP is not designed to always return the shortest path - rather, a path that fits the requirements. However, different Heuristics will be available so the user can balance performance->accuracy as needed.
+
+###Contributions and Donations
+Rather than charging for AHP, I have decided to offer it for free. However, AHP's development is powered by coffee. Donations of any size are welcome to contribute to the coffee fund - which means more improvements, faster, and an overall better piece of code! If AHP helped your project or you wish to support this project, I would be very grateful for your donation in support. Thank you ahead of time! :)
+
+If you are code-inclined, I also welcome improvements to the function of the code. Please feel free to fork and initiate pull-requests as you are so inclined. Please make sure that your syntax is formatted correctly (identical to how it is in the main code) or I may have to change it.
